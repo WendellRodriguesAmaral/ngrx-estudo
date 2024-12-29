@@ -32,8 +32,4 @@ export class AppComponent {
     this.store.dispatch(defineContador({ payload: valorTratado }))
   }
 
-  // string$ = this.store.select('app2')
-  // .pipe(
-  //   map(state => state.teste)
-  // )
 }

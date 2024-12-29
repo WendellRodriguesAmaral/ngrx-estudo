@@ -9,7 +9,6 @@ export const appInitialState: IAppState = {
 };
 
 
-
 export const incrementaContador = createAction('[App] Incrementar Contador'); //cria uma ação para incrementar o contador
 
 export const decrementaContador = createAction('[App] Decrementar Contador'); //cria uma ação para decrementar o contador
@@ -42,29 +41,3 @@ export const appReducer = createReducer( //cria o reducer
     }
   )),
 )
-
-
-
-
-
-
-
-
-
-
-//===========================================================================
-
-// export interface IAppStateTeste {
-//     teste: string;
-// }
-
-// export const appInitialStateTeste: IAppStateTeste = {
-//     teste: 'string qualquer',
-// };
-
-
-// export const appReducer2 = createReducer(
-//     appInitialStateTeste
-// )
-
-
